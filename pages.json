@@ -3,54 +3,167 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "Music CHINA"				
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50, // 上拉触底的单位，单位为px
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		 },{
+			"path": "pages/exhibitor/exhibit/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		
+		},{
+			"path": "pages/user/coin-certificate/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/user/coin-certificate/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/user/invite/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/user/collected-record/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
 			}
 		}, {
+			"path": "pages/user/message/MessageBoard/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		},{
+			"path": "pages/user/message/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#F5A667"
+			}
+		}, {
+		 	"path": "pages/rush/allrush",
+		 	"style": {
+		 		"navigationBarTitleText": "",
+		 		"enablePullDownRefresh": true
+		 	}
+		 
+		 },{
+		 	"path": "pages/rush/index",
+		 	"style": {
+		 		"navigationBarTitleText": "",
+		 		"enablePullDownRefresh": false
+		 	}
+		 
+		 },{
+		 	"path": "pages/user/coupon/index",
+		 	"style": {
+		 		"navigationBarTitleText": "",
+		 		"enablePullDownRefresh": false
+		 	}
+		 },{
+			"path": "pages/user/coupon/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		}, {
+			"path": "pages/user/coupon/success",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		},{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
+			}
+		 },{
 			"path": "pages/exhibitor/index",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 50 // 上拉触底的单位，单位为px
 			}
-		}, {
-			"path": "pages/exhibit/index",
+		},{
+			"path": "pages/exhibitor/exhibitor/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		
+		},{
+			"path": "pages/exhibitor/exhibitor/detaillist",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-
-		}, {
+		
+		},{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"bounce":"none" // 将回弹属性关掉
+				}
+			}
+		 },{
 			"path": "pages/search/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
-		}, {
+		},{
+		 	"path": "pages/user/footprint/index",
+		 	"style": {
+		 		"navigationBarTitleText": "",
+		 		"enablePullDownRefresh": false
+		 	}
+		 }, {
 			"path": "pages/livestream/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
 
-		}, {
-			"path": "pages/user/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-
-		}, {
+		},{
 			"path": "pages/browser/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
 
-		}, {
-			"path": "pages/advance-sale/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
 		}, {
 			"path": "pages/registration/index",
 			"style": {
@@ -64,40 +177,8 @@
 				"enablePullDownRefresh": false
 			}
 
-		}, {
-			"path": "pages/user/collected-record/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-
-		}, {
-			"path": "pages/user/coupon/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/exhibitor/_id/index",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/exhibitor/_id/exhibit",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-
-		}, {
-			"path": "pages/advance-sale/current",
-			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-		}, {
-			"path": "pages/user/message/index",
+		},{
+			"path": "pages/exhibitor/exhibitor/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
@@ -110,6 +191,34 @@
 			}
 		}
 	],
+	
+	"tabBar": {
+		"custom": true,
+	    "list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home_a.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/livestream/index",
+			"iconPath": "static/image/live.png",
+			"selectedIconPath": "static/image/live.png",
+			"text": "直播"
+		},
+		{
+			"pagePath": "pages/registration/index",
+			"iconPath": "static/image/registor.png",
+			"selectedIconPath": "static/image/registor.png",
+			"text": "预登记"
+		},
+		{
+			"pagePath": "pages/user/index",
+			"iconPath": "static/image/my.png",
+			"selectedIconPath": "static/image/my_a.png",
+			"text": "我的"
+		}]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -117,6 +226,13 @@
 		"backgroundColor": "#F8F8F8",
 		"navigationStyle": "custom"
 	},
+	
+	// "preloadRule": {
+	// 	"pages/index/index": {
+	// 		"network": "all",
+	// 		"packages": [""]
+	// 	}
+	// },
 	"condition" : { //模式配置，仅开发期间生效
 		"current": 0, //当前激活的模式(list 的索引项)
 		"list": [
